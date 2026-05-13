@@ -68,7 +68,7 @@
 
 ## 📚 Recursos para aprender AWS
 
-- 📺 [AWS desde cero - HolaMundo](https://www.youtube.com/watch?v=YkahKkdGobg)
+- 📺 [AWS desde cero - HolaMundo](https://www.youtube.com/results?search_query=AWS%20desde%20cero%20-%20HolaMundo)
 - 📖 [AWS Free Tier](https://aws.amazon.com/free/)
 - 📖 [AWS Skill Builder](https://skillbuilder.aws/) (cursos gratis)
 - 🎓 [acloud.guru](https://acloudguru.com/) (paga, pero el mejor)
@@ -106,7 +106,7 @@
 ### Kubernetes (K8s)
 - Orquestar muchos containers
 - Auto-healing, scaling
-- 📺 [K8s en español - HolaMundo](https://www.youtube.com/watch?v=DCoFG7vUgKQ)
+- 📺 [K8s en español - HolaMundo](https://www.youtube.com/results?search_query=K8s%20en%20espa%C3%B1ol%20-%20HolaMundo)
 
 > **Cuándo aprenderlo:** Solo si trabajás en empresas grandes. Para indie/startup, suele ser overkill.
 

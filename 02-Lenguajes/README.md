@@ -44,8 +44,8 @@ python3 --version
 **Por qué:** El lenguaje de la web. Funciona en navegadores, servidores y apps móviles.
 
 ### Recursos
-- 📺 [Curso JS desde cero - midudev](https://www.youtube.com/watch?v=ENG5e-yjvCg)
-- 📺 [JavaScript - Hola Mundo (Brais Moure)](https://www.youtube.com/watch?v=fIvyezTdK8E)
+- 📺 [Curso JS desde cero - midudev](https://www.youtube.com/results?search_query=Curso%20JS%20desde%20cero%20-%20midudev)
+- 📺 [JavaScript - Hola Mundo (Brais Moure)](https://www.youtube.com/results?search_query=JavaScript%20-%20Hola%20Mundo%20%28Brais%20Moure%29)
 - 📖 [JavaScript.info](https://es.javascript.info/) (el mejor recurso GRATIS)
 - 📖 [MDN Web Docs](https://developer.mozilla.org/es/docs/Web/JavaScript)
 - 🎮 [Práctica: Codewars](https://www.codewars.com/)
@@ -57,7 +57,7 @@ Abrí Chrome → F12 → pestaña "Console" → escribí `console.log("Hola")`
 
 ## 🎨 HTML + CSS (no son lenguajes de programación, pero los necesitás)
 
-- 📺 [HTML y CSS desde cero - Bluuweb](https://www.youtube.com/watch?v=4WFCmKK6Mc4)
+- 📺 [HTML y CSS desde cero - Bluuweb](https://www.youtube.com/results?search_query=HTML%20y%20CSS%20desde%20cero%20-%20Bluuweb)
 - 📖 [CSS Tricks](https://css-tricks.com/)
 - 🎮 [Flexbox Froggy](https://flexboxfroggy.com/#es) — juego para aprender Flexbox
 - 🎮 [Grid Garden](https://cssgridgarden.com/#es) — juego para CSS Grid

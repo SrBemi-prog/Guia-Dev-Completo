@@ -24,8 +24,8 @@ Bases de redes  →  HTTP/APIs  →  Node.js o Python  →  Express/FastAPI  →
 **Por qué:** Si ya sabés JS del frontend, no aprendés un lenguaje nuevo.
 
 ### Recursos
-- 📺 [Node.js desde cero - midudev](https://www.youtube.com/watch?v=fmwAOvjRDdQ)
-- 📺 [Node.js + Express - Fazt](https://www.youtube.com/watch?v=jZHwA-rO61g)
+- 📺 [Node.js desde cero - midudev](https://www.youtube.com/results?search_query=Node.js%20desde%20cero%20-%20midudev)
+- 📺 [Node.js + Express - Fazt](https://www.youtube.com/results?search_query=Node.js%20%2B%20Express%20-%20Fazt)
 - 📖 [Node.js docs](https://nodejs.org/es/docs/)
 
 ### Framework: Express.js
@@ -78,7 +78,7 @@ def saludar():
 | DELETE | Borrar |
 
 ### Recursos
-- 📺 [APIs REST explicadas - midudev](https://www.youtube.com/watch?v=4Yt46X8tIyE)
+- 📺 [APIs REST explicadas - midudev](https://www.youtube.com/results?search_query=APIs%20REST%20explicadas%20-%20midudev)
 - 🛠️ [Postman](https://www.postman.com/) — para probar APIs
 - 🛠️ [Insomnia](https://insomnia.rest/) — alternativa a Postman
 
@@ -90,7 +90,7 @@ def saludar():
 - **OAuth** (login con Google, GitHub, etc.)
 - **Sessions + cookies**
 
-📺 [JWT explicado - midudev](https://www.youtube.com/watch?v=_PnD06qrTOA)
+📺 [JWT explicado - midudev](https://www.youtube.com/results?search_query=JWT%20explicado%20-%20midudev)
 
 ### Servicios listos para usar
 - **Clerk** — login bonito y fácil

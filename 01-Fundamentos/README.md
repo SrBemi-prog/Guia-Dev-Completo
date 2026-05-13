@@ -17,10 +17,10 @@
 
 | Video | Canal | Duración |
 |-------|-------|----------|
-| [¿Qué es la programación?](https://www.youtube.com/watch?v=Tj1JqVQ7nfE) | MoureDev | 15 min |
-| [Curso de Lógica de Programación](https://www.youtube.com/watch?v=lXVS-ZAToOA) | Píldoras Informáticas | 1.5 hs |
+| [¿Qué es la programación?](https://www.youtube.com/results?search_query=%C2%BFQu%C3%A9%20es%20la%20programaci%C3%B3n%3F) | MoureDev | 15 min |
+| [Curso de Lógica de Programación](https://www.youtube.com/results?search_query=Curso%20de%20L%C3%B3gica%20de%20Programaci%C3%B3n) | Píldoras Informáticas | 1.5 hs |
 | [Cómo funciona una computadora](https://www.youtube.com/watch?v=AkFi90lZmXA) | Date un Voltio | 12 min |
-| [Pensamiento Computacional](https://www.youtube.com/watch?v=tcg4lBnIN_I) | Platzi | 45 min |
+| [Pensamiento Computacional](https://www.youtube.com/results?search_query=Pensamiento%20Computacional) | Platzi | 45 min |
 
 ### Inglés (subtitulado)
 

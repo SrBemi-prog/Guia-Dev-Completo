@@ -12,7 +12,7 @@ HTML  →  CSS  →  JavaScript  →  Git  →  React  →  TypeScript  →  Nex
 
 ## 1️⃣ HTML — La estructura
 
-- 📺 [HTML completo - midudev](https://www.youtube.com/watch?v=B7y1FUuY-Ck)
+- 📺 [HTML completo - midudev](https://www.youtube.com/results?search_query=HTML%20completo%20-%20midudev)
 - 📖 [MDN HTML](https://developer.mozilla.org/es/docs/Web/HTML)
 - 🎯 **Proyecto:** Replicá una página simple (ej: tu CV en HTML)
 
@@ -20,15 +20,15 @@ HTML  →  CSS  →  JavaScript  →  Git  →  React  →  TypeScript  →  Nex
 
 ## 2️⃣ CSS — Los estilos
 
-- 📺 [CSS desde cero - Bluuweb](https://www.youtube.com/watch?v=4WFCmKK6Mc4)
-- 📺 [Flexbox - Carlos Azaustre](https://www.youtube.com/watch?v=eS0wcMW3w5Y)
+- 📺 [CSS desde cero - Bluuweb](https://www.youtube.com/results?search_query=CSS%20desde%20cero%20-%20Bluuweb)
+- 📺 [Flexbox - Carlos Azaustre](https://www.youtube.com/results?search_query=Flexbox%20-%20Carlos%20Azaustre)
 - 🎮 [Flexbox Froggy](https://flexboxfroggy.com/#es)
 - 🎮 [Grid Garden](https://cssgridgarden.com/#es)
 - 🎨 [CSS Battle](https://cssbattle.dev/) — retos de CSS
 
 ### Frameworks CSS
 - **Tailwind CSS** — utility-first, el más usado en 2026.
-  - 📺 [Curso Tailwind - midudev](https://www.youtube.com/watch?v=YKqJaTYf1Tk)
+  - 📺 [Curso Tailwind - midudev](https://www.youtube.com/results?search_query=Curso%20Tailwind%20-%20midudev)
   - 📖 [tailwindcss.com](https://tailwindcss.com/docs)
 - **Shadcn/ui** — componentes pre-armados sobre Tailwind.
 
@@ -40,7 +40,7 @@ HTML  →  CSS  →  JavaScript  →  Git  →  React  →  TypeScript  →  Nex
 - Events (clicks, teclado, etc.)
 - Fetch API (traer datos de internet)
 
-📺 [JS para el DOM - midudev](https://www.youtube.com/watch?v=Q6ID5SK-DFY)
+📺 [JS para el DOM - midudev](https://www.youtube.com/results?search_query=JS%20para%20el%20DOM%20-%20midudev)
 
 ---
 

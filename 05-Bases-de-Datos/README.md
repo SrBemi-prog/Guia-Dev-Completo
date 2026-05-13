@@ -48,13 +48,13 @@ DELETE FROM usuarios WHERE id = 1;
 ## 📺 Cursos recomendados
 
 ### SQL
-- 📺 [SQL desde cero - Pildoras Informaticas](https://www.youtube.com/watch?v=Sue4CTFzNRk)
-- 📺 [PostgreSQL - Fazt](https://www.youtube.com/watch?v=Mt3tFsfPV5w)
+- 📺 [SQL desde cero - Pildoras Informaticas](https://www.youtube.com/results?search_query=SQL%20desde%20cero%20-%20Pildoras%20Informaticas)
+- 📺 [PostgreSQL - Fazt](https://www.youtube.com/results?search_query=PostgreSQL%20-%20Fazt)
 - 🎮 [SQLBolt](https://sqlbolt.com/) — tutorial interactivo
 - 🎮 [SQL Murder Mystery](https://mystery.knightlab.com/) — aprendé resolviendo un crimen
 
 ### MongoDB
-- 📺 [MongoDB - Fazt](https://www.youtube.com/watch?v=u5J0M3lTNa0)
+- 📺 [MongoDB - Fazt](https://www.youtube.com/results?search_query=MongoDB%20-%20Fazt)
 - 📖 [MongoDB University](https://learn.mongodb.com/) (cursos gratis oficiales)
 
 ---

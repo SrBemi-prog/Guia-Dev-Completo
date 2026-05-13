@@ -21,7 +21,7 @@
 ## 🟦 Unity (el más usado en la industria)
 
 ### Recursos
-- 📺 [Unity desde cero - Spanish School of Coding](https://www.youtube.com/watch?v=fLi6tnsPDw0)
+- 📺 [Unity desde cero - Spanish School of Coding](https://www.youtube.com/results?search_query=Unity%20desde%20cero%20-%20Spanish%20School%20of%20Coding)
 - 📺 [Brackeys (clásico, inglés)](https://www.youtube.com/@Brackeys)
 - 📖 [Unity Learn](https://learn.unity.com/) — cursos gratis oficiales
 - 📺 [Code Monkey](https://www.youtube.com/@CodeMonkeyUnity)
@@ -54,7 +54,7 @@ func _process(delta):
 ### Recursos
 - 📺 [Unreal Sensei (inglés)](https://www.youtube.com/@UnrealSensei)
 - 📖 [docs.unrealengine.com](https://docs.unrealengine.com/5.0/en-US/)
-- 📺 [Curso UE5 español - Crowders](https://www.youtube.com/@crowders)
+- 📺 [Curso UE5 español - Crowders](https://www.youtube.com/results?search_query=Curso+Unreal+Engine+5+espa%C3%B1ol)
 
 **Pros:** gráficos brutales, Blueprints (visual), Lumen, Nanite.
 **Contras:** pesado, curva alta.

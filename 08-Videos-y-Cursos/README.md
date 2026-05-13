@@ -13,7 +13,6 @@
 | **HolaMundo** | Cursos completos | https://www.youtube.com/@HolaMundoDev |
 | **Pildoras Informaticas** | Clásico, muy didáctico | https://www.youtube.com/@pildorasinformaticas |
 | **Bluuweb** | Web dev claro y simple | https://www.youtube.com/@bluuweb |
-| **Frontend Masters ES** | Frontend pro | https://www.youtube.com/@FrontendMasters_es |
 | **Cuevana de Código** | Mentorías y carrera | https://www.youtube.com/@DiazMaster |
 
 ### IA y Datos
