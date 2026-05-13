@@ -1,0 +1,19 @@
+title: Guía Dev Completo
+description: Ruta de aprendizaje para ser desarrollador, desde cero hasta dev profesional con IA en 2026
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+show_downloads: false
+github:
+  repository_url: https://github.com/SrBemi-prog/Guia-Dev-Completo
+
+# Ignorar carpetas
+exclude:
+  - .github/
+  - LICENSE
+  - "10-PDFs-y-Libros/descargas/"
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
