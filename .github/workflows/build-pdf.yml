@@ -34,7 +34,7 @@ jobs:
             echo "  format: A4"
             echo "  margin: 20mm"
             echo "  printBackground: true"
-            echo "stylesheet: _build/style.css"
+            echo "stylesheet: style.css"
             echo "---"
             echo ""
             echo "# 🚀 Guía Dev Completo"
