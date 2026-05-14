@@ -44,7 +44,8 @@
 
 ### 📑 Referencias rápidas
 - 🔗 [**LINKS.md**](./LINKS.md) — Todos los links en un solo lugar
-- 🛠️ [**TECH-STACK-2026.md**](./TECH-STACK-2026.md) — Stack moderno opinionado
+- 🛠️ [**TECH-STACK-2026.md**](./TECH-STACK-2026.md) — Stack moderno opinionado de tecnologías
+- 💻 [**STACK-DE-APPS.md**](./STACK-DE-APPS.md) — Todas las apps que un dev debería instalar (Notion, Obsidian, Claude, Cursor, etc.)
 - 📖 [**GLOSARIO.md**](./GLOSARIO.md) — Diccionario dev de A a Z
 - ❓ [**PREGUNTAS-FRECUENTES.md**](./PREGUNTAS-FRECUENTES.md) — FAQ opinionado para principiantes
 - 📊 [**PROGRESO.md**](./PROGRESO.md) — Checklist personal de aprendizaje (forkeá y completalo)
