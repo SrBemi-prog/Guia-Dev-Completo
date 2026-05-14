@@ -1,6 +1,6 @@
 # 💻 Stack de Apps para Devs 2026
 
-> Todas las apps que tener instaladas. Categorizadas, con recomendación clara.
+> Todas las apps que tener instaladas. Categorizadas, con link a cada una.
 > ⭐ = lo que YO usaría si arrancara hoy.
 
 ---
@@ -8,19 +8,19 @@
 ## 🖥️ Sistema base
 
 ### Mac
-- **Homebrew** ⭐ — gestor de paquetes (`brew install`). https://brew.sh
-- **Rectangle** — gestionar ventanas con atajos. https://rectangleapp.com
-- **Hidden Bar** — esconder iconos de la barra
-- **AltTab** — alt+tab al estilo Windows. https://alt-tab-macos.netlify.app
-- **The Unarchiver** — descompresor universal
-- **AppCleaner** — desinstalar apps limpias
-- **Stats** — monitor de CPU/RAM/red en la barra
+- ⭐ [**Homebrew**](https://brew.sh/) — gestor de paquetes (`brew install`)
+- [**Rectangle**](https://rectangleapp.com/) — gestionar ventanas con atajos
+- [**Hidden Bar**](https://github.com/dwarvesf/hidden) — esconder iconos de la barra
+- [**AltTab**](https://alt-tab-macos.netlify.app/) — alt+tab al estilo Windows
+- [**The Unarchiver**](https://theunarchiver.com/) — descompresor universal
+- [**AppCleaner**](https://freemacsoft.net/appcleaner/) — desinstalar apps limpias
+- [**Stats**](https://github.com/exelban/stats) — monitor de CPU/RAM/red en la barra
 
 ### Windows
-- **WSL2** ⭐ — Linux dentro de Windows (esencial para devs)
-- **Windows Terminal**
-- **PowerToys** ⭐ — utilidades de Microsoft (FancyZones, etc.)
-- **7-Zip** — descompresor
+- ⭐ [**WSL2**](https://learn.microsoft.com/en-us/windows/wsl/) — Linux dentro de Windows (esencial para devs)
+- [**Windows Terminal**](https://aka.ms/terminal)
+- ⭐ [**PowerToys**](https://learn.microsoft.com/en-us/windows/powertoys/) — utilidades de Microsoft
+- [**7-Zip**](https://www.7-zip.org/) — descompresor
 
 ### Linux
 - Ya viene listo. Felicitaciones.
@@ -31,15 +31,15 @@
 
 | App | Notas | Precio |
 |-----|-------|--------|
-| **Cursor** ⭐ | VS Code con IA — el más usado 2026 | Gratis + paga |
-| **VS Code** | El estándar, gratis, eterno | Gratis |
-| **Zed** | Editor moderno y rápido, con IA | Gratis |
-| **Windsurf** | Alternativa a Cursor | Gratis + paga |
-| **WebStorm** | JS/TS pro, pesado | De pago |
-| **PyCharm** | Python pro | Gratis (Community) |
-| **Neovim** | Solo si te entusiasma | Gratis |
-| **Xcode** | Obligatorio para iOS | Gratis (App Store) |
-| **Android Studio** | Obligatorio para Android | Gratis |
+| ⭐ [**Cursor**](https://cursor.com/) | VS Code con IA — el más usado 2026 | Gratis + paga |
+| [**VS Code**](https://code.visualstudio.com/) | El estándar, gratis, eterno | Gratis |
+| [**Zed**](https://zed.dev/) | Editor moderno y rápido, con IA | Gratis |
+| [**Windsurf**](https://windsurf.com/) | Alternativa a Cursor | Gratis + paga |
+| [**WebStorm**](https://www.jetbrains.com/webstorm/) | JS/TS pro, pesado | De pago |
+| [**PyCharm**](https://www.jetbrains.com/pycharm/) | Python pro | Gratis (Community) |
+| [**Neovim**](https://neovim.io/) | Solo si te entusiasma | Gratis |
+| [**Xcode**](https://developer.apple.com/xcode/) | Obligatorio para iOS | Gratis (App Store) |
+| [**Android Studio**](https://developer.android.com/studio) | Obligatorio para Android | Gratis |
 
 ---
 
@@ -47,17 +47,17 @@
 
 | App | Plataforma |
 |-----|-----------|
-| **Warp** ⭐ | Mac/Linux/Win — moderna con IA |
-| **Ghostty** | Mac/Linux — la más rápida |
-| **iTerm2** | Mac — el clásico |
-| **Alacritty** | Universal — minimalista, rápida |
-| **Wezterm** | Universal — configurable a fondo |
-| **Windows Terminal** | Win — el oficial |
+| ⭐ [**Warp**](https://www.warp.dev/) | Mac/Linux/Win — moderna con IA |
+| [**Ghostty**](https://ghostty.org/) | Mac/Linux — la más rápida |
+| [**iTerm2**](https://iterm2.com/) | Mac — el clásico |
+| [**Alacritty**](https://alacritty.org/) | Universal — minimalista, rápida |
+| [**Wezterm**](https://wezterm.org/) | Universal — configurable a fondo |
+| [**Windows Terminal**](https://aka.ms/terminal) | Win — el oficial |
 
 ### Shell modernos
-- **zsh** + **Oh My Zsh** + **Starship**
-- **fish** — defaults sanos, autocompletado
-- **nushell** — moderno, data-friendly
+- [**zsh**](https://www.zsh.org/) + [**Oh My Zsh**](https://ohmyz.sh/) + [**Starship**](https://starship.rs/)
+- [**fish**](https://fishshell.com/) — defaults sanos, autocompletado
+- [**nushell**](https://www.nushell.sh/) — moderno, data-friendly
 
 ---
 
@@ -65,14 +65,14 @@
 
 | App | Para qué | Precio |
 |-----|---------|--------|
-| **Obsidian** ⭐ | Notas markdown locales, infinitamente extensible | Gratis (cobra sync) |
-| **Notion** | Notas + bases de datos + colaboración | Gratis + paga |
-| **Logseq** | Como Obsidian + outliner (estilo Roam) | Gratis |
-| **Apple Notes** | Simple, gratis, sync nativo | Gratis (Mac/iOS) |
-| **Bear** | Markdown bonito (Apple-only) | Paga |
-| **Craft** | Más visual, multimedia | Paga |
-| **Mem** | Con IA | Paga |
-| **Heptabase** | Visual, tipo pizarra | Paga |
+| ⭐ [**Obsidian**](https://obsidian.md/) | Notas markdown locales, infinitamente extensible | Gratis (cobra sync) |
+| [**Notion**](https://www.notion.so/) | Notas + bases de datos + colaboración | Gratis + paga |
+| [**Logseq**](https://logseq.com/) | Como Obsidian + outliner (estilo Roam) | Gratis |
+| [**Apple Notes**](https://www.icloud.com/notes) | Simple, gratis, sync nativo | Gratis (Mac/iOS) |
+| [**Bear**](https://bear.app/) | Markdown bonito (Apple-only) | Paga |
+| [**Craft**](https://www.craft.do/) | Más visual, multimedia | Paga |
+| [**Mem**](https://mem.ai/) | Con IA | Paga |
+| [**Heptabase**](https://heptabase.com/) | Visual, tipo pizarra | Paga |
 
 > **Mi opinión:** Obsidian para vos (markdown local, te pertenece), Notion para colaborar.
 
@@ -82,17 +82,17 @@
 
 | Servicio | Espacio gratis | Notas |
 |----------|---------------|-------|
-| **Google Drive** | 15 GB | El estándar, mejor integración con docs |
-| **iCloud** | 5 GB | Por defecto en Mac/iOS |
-| **Dropbox** | 2 GB | Mejor sync que todos |
-| **Mega** | 20 GB | Privacidad fuerte |
-| **OneDrive** | 5 GB | Si usás Windows/Office |
-| **Proton Drive** | 5 GB | Privacidad total |
+| [**Google Drive**](https://drive.google.com/) | 15 GB | El estándar, mejor integración con docs |
+| [**iCloud**](https://www.icloud.com/) | 5 GB | Por defecto en Mac/iOS |
+| [**Dropbox**](https://www.dropbox.com/) | 2 GB | Mejor sync que todos |
+| [**Mega**](https://mega.io/) | 20 GB | Privacidad fuerte |
+| [**OneDrive**](https://www.microsoft.com/microsoft-365/onedrive/online-cloud-storage) | 5 GB | Si usás Windows/Office |
+| [**Proton Drive**](https://proton.me/drive) | 5 GB | Privacidad total |
 
 ### Backup
-- **Time Machine** (Mac built-in)
-- **Backblaze** ⭐ — backup ilimitado en la nube, $9/mes
-- **Carbon Copy Cloner** — clonado de disco
+- [**Time Machine**](https://support.apple.com/guide/mac-help/back-up-your-mac-with-time-machine-mh21420/mac) (Mac built-in)
+- ⭐ [**Backblaze**](https://www.backblaze.com/) — backup ilimitado en la nube, $9/mes
+- [**Carbon Copy Cloner**](https://bombich.com/) — clonado de disco
 
 ---
 
@@ -101,34 +101,34 @@
 ### Chats
 | App | Para qué |
 |-----|---------|
-| **Claude** (Anthropic) ⭐ | Código, razonamiento, escritura larga |
-| **ChatGPT** (OpenAI) | Multipropósito, imágenes |
-| **Gemini** (Google) | Integrado con Google |
-| **DeepSeek** | Open source, gratis, muy bueno |
-| **Perplexity** | Búsquedas con IA |
-| **Grok** (xAI) | Alternativa con personalidad |
+| ⭐ [**Claude**](https://claude.ai/) | Código, razonamiento, escritura larga |
+| [**ChatGPT**](https://chat.openai.com/) | Multipropósito, imágenes |
+| [**Gemini**](https://gemini.google.com/) | Integrado con Google |
+| [**DeepSeek**](https://chat.deepseek.com/) | Open source, gratis, muy bueno |
+| [**Perplexity**](https://www.perplexity.ai/) | Búsquedas con IA |
+| [**Grok**](https://grok.com/) | Alternativa con personalidad |
 
 ### Para devs específicamente
 | App | Función |
 |-----|---------|
-| **Claude Code** ⭐ | Agente CLI agéntico |
-| **Cursor** | IDE con IA integrada |
-| **GitHub Copilot** | Autocompletado |
-| **Continue** | Open source en VS Code |
-| **Phind** | Búsqueda específica dev |
+| ⭐ [**Claude Code**](https://claude.com/claude-code) | Agente CLI agéntico |
+| [**Cursor**](https://cursor.com/) | IDE con IA integrada |
+| [**GitHub Copilot**](https://github.com/features/copilot) | Autocompletado |
+| [**Continue**](https://www.continue.dev/) | Open source en VS Code |
+| [**Phind**](https://www.phind.com/) | Búsqueda específica dev |
 
 ### Locales (privacidad)
-- **Ollama** ⭐ — correr LLMs en tu máquina
-- **LM Studio** — GUI para LLMs locales
+- ⭐ [**Ollama**](https://ollama.com/) — correr LLMs en tu máquina
+- [**LM Studio**](https://lmstudio.ai/) — GUI para LLMs locales
 
 ### Imágenes / video / audio
-- **Midjourney** — imágenes (Discord)
-- **DALL-E** (en ChatGPT) — imágenes
-- **Flux** — imágenes open source
-- **Suno** — música con IA
-- **ElevenLabs** — voces clonadas
-- **Veo** (Google) — video
-- **Runway** — video pro
+- [**Midjourney**](https://www.midjourney.com/) — imágenes
+- [**DALL-E**](https://openai.com/index/dall-e-3/) (en ChatGPT) — imágenes
+- [**Flux**](https://blackforestlabs.ai/) — imágenes open source
+- [**Suno**](https://suno.com/) — música con IA
+- [**ElevenLabs**](https://elevenlabs.io/) — voces clonadas
+- [**Veo**](https://deepmind.google/technologies/veo/) (Google) — video
+- [**Runway**](https://runwayml.com/) — video pro
 
 ---
 
@@ -136,15 +136,15 @@
 
 | App | Para qué |
 |-----|---------|
-| **Slack** ⭐ | Trabajo en equipo (estándar tech) |
-| **Discord** ⭐ | Comunidades open source, gaming |
-| **Telegram** | Mensajería personal |
-| **WhatsApp** | LATAM y Europa, indispensable |
-| **Signal** | Privacidad máxima |
-| **Microsoft Teams** | Empresas grandes |
-| **Zoom** | Videollamadas |
-| **Google Meet** | Videollamadas (Google Workspace) |
-| **Around / Tuple** | Pair programming remoto |
+| ⭐ [**Slack**](https://slack.com/) | Trabajo en equipo (estándar tech) |
+| ⭐ [**Discord**](https://discord.com/) | Comunidades open source, gaming |
+| [**Telegram**](https://telegram.org/) | Mensajería personal |
+| [**WhatsApp**](https://www.whatsapp.com/) | LATAM y Europa, indispensable |
+| [**Signal**](https://signal.org/) | Privacidad máxima |
+| [**Microsoft Teams**](https://www.microsoft.com/microsoft-teams/) | Empresas grandes |
+| [**Zoom**](https://zoom.us/) | Videollamadas |
+| [**Google Meet**](https://meet.google.com/) | Videollamadas (Google Workspace) |
+| [**Around**](https://around.co/) / [**Tuple**](https://tuple.app/) | Pair programming remoto |
 
 ---
 
@@ -152,50 +152,49 @@
 
 | App | Plataforma | Notas |
 |-----|-----------|-------|
-| **Raycast** ⭐ | Mac | Launcher con IA + extensions. Reemplaza Spotlight |
-| **Alfred** | Mac | El clásico, customizable |
-| **PowerToys Run** | Win | Launcher built-in |
-| **Flow Launcher** | Win | Alternativa más linda |
-| **Albert** | Linux | Launcher universal |
+| ⭐ [**Raycast**](https://www.raycast.com/) | Mac | Launcher con IA + extensions |
+| [**Alfred**](https://www.alfredapp.com/) | Mac | El clásico, customizable |
+| [**PowerToys Run**](https://learn.microsoft.com/en-us/windows/powertoys/run) | Win | Launcher built-in |
+| [**Flow Launcher**](https://www.flowlauncher.com/) | Win | Alternativa más linda |
+| [**Albert**](https://albertlauncher.github.io/) | Linux | Launcher universal |
 
 ### Otras utilities
-- **Maccy** — historial de portapapeles (Mac)
-- **Karabiner-Elements** — remap del teclado (Mac)
-- **Hammerspoon** — automatización scripteable (Mac)
-- **Espanso** — text expander multiplataforma
-- **TextSniper** — OCR de cualquier imagen
+- [**Maccy**](https://maccy.app/) — historial de portapapeles (Mac)
+- [**Karabiner-Elements**](https://karabiner-elements.pqrs.org/) — remap del teclado (Mac)
+- [**Hammerspoon**](https://www.hammerspoon.org/) — automatización scripteable (Mac)
+- [**Espanso**](https://espanso.org/) — text expander multiplataforma
+- [**TextSniper**](https://textsniper.app/) — OCR de cualquier imagen
 
 ---
 
 ## 📚 Lectura / Contenido
 
 ### Capturar / leer después
-- **Readwise Reader** ⭐ — leer artículos, PDFs, ebooks, todo
-- **Pocket** — leer después clásico
-- **Instapaper** — similar
-- **Matter** — leer con IA
+- ⭐ [**Readwise Reader**](https://readwise.io/read) — leer artículos, PDFs, ebooks, todo
+- [**Pocket**](https://getpocket.com/) — leer después clásico
+- [**Instapaper**](https://www.instapaper.com/) — similar
+- [**Matter**](https://hq.getmatter.com/) — leer con IA
 
 ### Highlights / notas de lectura
-- **Readwise** ⭐ — sincroniza highlights de TODO
-- **Bookmark** apps del navegador
+- ⭐ [**Readwise**](https://readwise.io/) — sincroniza highlights de TODO
 
 ### Newsletters
-- **Substack** — leer + escribir
-- **Reflect** — newsletters + notas
+- [**Substack**](https://substack.com/) — leer + escribir
+- [**Reflect**](https://reflect.app/) — newsletters + notas
 
 ### Lectura técnica
-- **Hacker News** (web/app)
-- **Reddit r/programming, r/webdev**
-- **Daily.dev** — feed para devs
-- **Refind** — top artículos curados
+- [**Hacker News**](https://news.ycombinator.com/)
+- [**Reddit r/programming**](https://www.reddit.com/r/programming/) · [**r/webdev**](https://www.reddit.com/r/webdev/)
+- [**Daily.dev**](https://daily.dev/) — feed para devs
+- [**Refind**](https://refind.com/) — top artículos curados
 
 ### Libros / ebooks
-- **Kindle** + Kindle app — clásico
-- **Apple Books** — Mac/iOS
-- **Calibre** — gestor de ebooks (open source)
+- [**Kindle**](https://www.amazon.com/kindle-dbs/fd/kcp) + Kindle app
+- [**Apple Books**](https://www.apple.com/apple-books/) — Mac/iOS
+- [**Calibre**](https://calibre-ebook.com/) — gestor de ebooks (open source)
 
 ### Podcasts
-- **Apple Podcasts** / **Spotify** / **Pocket Casts** / **Overcast**
+- [**Apple Podcasts**](https://www.apple.com/apple-podcasts/) / [**Spotify**](https://open.spotify.com/) / [**Pocket Casts**](https://pocketcasts.com/) / [**Overcast**](https://overcast.fm/)
 
 ---
 
@@ -203,23 +202,23 @@
 
 | App | Para qué |
 |-----|---------|
-| **Linear** ⭐ | Gestión de tasks estilo pro (gratis solo) |
-| **Todoist** | Tareas personales |
-| **Things 3** | Tareas hermosas (Apple-only, pago) |
-| **TickTick** | Multi-platform robusta |
-| **Trello** | Kanban clásico |
-| **Notion** | Si querés todo en uno |
-| **Reminders** | Apple built-in |
-| **Microsoft To Do** | Free + sync Office |
-| **Sunsama** | Daily planning |
+| ⭐ [**Linear**](https://linear.app/) | Gestión de tasks estilo pro |
+| [**Todoist**](https://todoist.com/) | Tareas personales |
+| [**Things 3**](https://culturedcode.com/things/) | Tareas hermosas (Apple-only, pago) |
+| [**TickTick**](https://ticktick.com/) | Multi-platform robusta |
+| [**Trello**](https://trello.com/) | Kanban clásico |
+| [**Notion**](https://www.notion.so/) | Si querés todo en uno |
+| [**Apple Reminders**](https://support.apple.com/guide/reminders/welcome/mac) | Apple built-in |
+| [**Microsoft To Do**](https://to-do.office.com/) | Free + sync Office |
+| [**Sunsama**](https://www.sunsama.com/) | Daily planning |
 
 ### Project management (equipos)
-- **Linear** ⭐
-- **Jira** (si te toca, sufrí)
-- **Asana**
-- **ClickUp**
-- **Monday**
-- **Height**
+- ⭐ [**Linear**](https://linear.app/)
+- [**Jira**](https://www.atlassian.com/software/jira) (si te toca, sufrí)
+- [**Asana**](https://asana.com/)
+- [**ClickUp**](https://clickup.com/)
+- [**Monday**](https://monday.com/)
+- [**Height**](https://height.app/)
 
 ---
 
@@ -227,12 +226,12 @@
 
 | App | Plataforma |
 |-----|-----------|
-| **Notion Calendar** (ex Cron) ⭐ | Mac/Win/iOS — el más lindo |
-| **Google Calendar** | Web + mobile |
-| **Fantastical** | Mac/iOS pro |
-| **BusyCal** | Mac pro |
-| **Cal.com** | Para que reserven citas con vos (open source) |
-| **Calendly** | Reservar citas (cerrado) |
+| ⭐ [**Notion Calendar**](https://www.notion.so/product/calendar) (ex Cron) | Mac/Win/iOS |
+| [**Google Calendar**](https://calendar.google.com/) | Web + mobile |
+| [**Fantastical**](https://flexibits.com/fantastical) | Mac/iOS pro |
+| [**BusyCal**](https://www.busymac.com/busycal/) | Mac pro |
+| [**Cal.com**](https://cal.com/) | Reservar citas (open source) |
+| [**Calendly**](https://calendly.com/) | Reservar citas (cerrado) |
 
 ---
 
@@ -240,17 +239,17 @@
 
 | App | Notas |
 |-----|-------|
-| **Gmail** | El default |
-| **Superhuman** | Email keyboard-first ($30/mes) |
-| **Spark** | Bonito y gratis |
-| **HEY** | De Basecamp, opinionado |
-| **Proton Mail** | Encriptado |
-| **Apple Mail** | Built-in Mac/iOS, decente |
-| **Mimestream** | Gmail nativo en Mac |
+| [**Gmail**](https://mail.google.com/) | El default |
+| [**Superhuman**](https://superhuman.com/) | Email keyboard-first |
+| [**Spark**](https://sparkmailapp.com/) | Bonito y gratis |
+| [**HEY**](https://hey.com/) | De Basecamp, opinionado |
+| [**Proton Mail**](https://proton.me/mail) | Encriptado |
+| [**Apple Mail**](https://www.apple.com/mail/) | Built-in Mac/iOS |
+| [**Mimestream**](https://mimestream.com/) | Gmail nativo en Mac |
 
 ### Para dev marketing
-- **Resend** — emails transaccionales
-- **Loops** — email marketing dev-friendly
+- [**Resend**](https://resend.com/) — emails transaccionales
+- [**Loops**](https://loops.so/) — email marketing dev-friendly
 
 ---
 
@@ -258,38 +257,38 @@
 
 | App | Para qué | Plataforma |
 |-----|---------|-----------|
-| **CleanShot X** ⭐ | El mejor screenshot tool | Mac (paga) |
-| **Shottr** | Alternativa gratis a CleanShot | Mac |
-| **Loom** ⭐ | Grabar pantalla + cara, compartir link | Universal |
-| **OBS** | Grabación pro, streaming | Universal (gratis) |
-| **ScreenStudio** | Grabaciones con zoom auto | Mac |
-| **Cap.so** | Open source Loom | Mac |
-| **Greenshot** | Free para Windows | Win |
-| **Carbon** | Code → screenshot bonito | Web |
-| **Ray.so** | Similar a Carbon | Web |
-| **Squoosh** | Comprimir imágenes | Web |
+| ⭐ [**CleanShot X**](https://cleanshot.com/) | El mejor screenshot tool | Mac (paga) |
+| [**Shottr**](https://shottr.cc/) | Alternativa gratis a CleanShot | Mac |
+| ⭐ [**Loom**](https://www.loom.com/) | Grabar pantalla + cara, compartir link | Universal |
+| [**OBS**](https://obsproject.com/) | Grabación pro, streaming | Universal (gratis) |
+| [**ScreenStudio**](https://www.screen.studio/) | Grabaciones con zoom auto | Mac |
+| [**Cap**](https://cap.so/) | Open source Loom | Mac |
+| [**Greenshot**](https://getgreenshot.org/) | Free para Windows | Win |
+| [**Carbon**](https://carbon.now.sh/) | Code → screenshot bonito | Web |
+| [**Ray.so**](https://ray.so/) | Similar a Carbon | Web |
+| [**Squoosh**](https://squoosh.app/) | Comprimir imágenes | Web |
 
 ---
 
 ## 🎧 Audio / Focus
 
 ### Música
-- **Spotify** ⭐ — estándar
-- **Apple Music** — si todo Apple
-- **YouTube Music** — gratis con ads
-- **Tidal** — calidad alta
+- ⭐ [**Spotify**](https://www.spotify.com/) — estándar
+- [**Apple Music**](https://www.apple.com/apple-music/) — si todo Apple
+- [**YouTube Music**](https://music.youtube.com/) — gratis con ads
+- [**Tidal**](https://tidal.com/) — calidad alta
 
 ### Para concentrarse programando
-- **Brain.fm** ⭐ — música científicamente diseñada
-- **Endel** — sonidos personalizados con IA
-- **Lo-Fi Girl** (YouTube) — gratis
-- **Noisli** — sonidos ambiente
-- **Coffitivity** — sonido de café
+- ⭐ [**Brain.fm**](https://www.brain.fm/) — música científicamente diseñada
+- [**Endel**](https://endel.io/) — sonidos personalizados con IA
+- [**Lo-Fi Girl**](https://www.youtube.com/watch?v=jfKfPfyJRdk) (YouTube) — gratis
+- [**Noisli**](https://www.noisli.com/) — sonidos ambiente
+- [**Coffitivity**](https://coffitivity.com/) — sonido de café
 
 ### Audio editing
-- **Audacity** — gratis, clásico
-- **Logic Pro** — Mac, pro
-- **Reaper** — pago, ligero, pro
+- [**Audacity**](https://www.audacityteam.org/) — gratis, clásico
+- [**Logic Pro**](https://www.apple.com/logic-pro/) — Mac, pro
+- [**Reaper**](https://www.reaper.fm/) — pago, ligero, pro
 
 ---
 
@@ -297,28 +296,28 @@
 
 | App | Para qué | Precio |
 |-----|---------|--------|
-| **Figma** ⭐ | Diseño UI estándar | Gratis (limita teams) |
-| **Penpot** | Open source Figma | Gratis |
-| **Sketch** | Mac, clásico | Paga |
-| **Excalidraw** | Diagramas a mano alzada | Gratis |
-| **Tldraw** | Pizarra colaborativa | Gratis |
-| **Whimsical** | Flowcharts + mindmaps | Gratis tier |
-| **Miro** | Pizarra equipo | Gratis tier |
-| **Canva** | Diseño no-code | Gratis tier |
-| **Affinity Designer** | Alternativa a Illustrator | Pago una vez |
+| ⭐ [**Figma**](https://www.figma.com/) | Diseño UI estándar | Gratis (limita teams) |
+| [**Penpot**](https://penpot.app/) | Open source Figma | Gratis |
+| [**Sketch**](https://www.sketch.com/) | Mac, clásico | Paga |
+| [**Excalidraw**](https://excalidraw.com/) | Diagramas a mano alzada | Gratis |
+| [**Tldraw**](https://www.tldraw.com/) | Pizarra colaborativa | Gratis |
+| [**Whimsical**](https://whimsical.com/) | Flowcharts + mindmaps | Gratis tier |
+| [**Miro**](https://miro.com/) | Pizarra equipo | Gratis tier |
+| [**Canva**](https://www.canva.com/) | Diseño no-code | Gratis tier |
+| [**Affinity Designer**](https://affinity.serif.com/designer/) | Alternativa a Illustrator | Pago una vez |
 
 ### Iconos / Ilustraciones
-- **Lucide** (iconos)
-- **Heroicons**
-- **Tabler Icons**
-- **Phosphor**
-- **unDraw** — ilustraciones
-- **Storyset** — ilustraciones
+- [**Lucide**](https://lucide.dev/) (iconos)
+- [**Heroicons**](https://heroicons.com/)
+- [**Tabler Icons**](https://tabler.io/icons)
+- [**Phosphor**](https://phosphoricons.com/)
+- [**unDraw**](https://undraw.co/) — ilustraciones
+- [**Storyset**](https://storyset.com/) — ilustraciones
 
 ### Colores
-- **Coolors.co** — paletas
-- **Realtime Colors** — preview en vivo
-- **UI Colors** — Tailwind colors
+- [**Coolors.co**](https://coolors.co/) — paletas
+- [**Realtime Colors**](https://www.realtimecolors.com/) — preview en vivo
+- [**UI Colors**](https://uicolors.app/) — Tailwind colors
 
 ---
 
@@ -326,12 +325,12 @@
 
 | App | Notas |
 |-----|-------|
-| **1Password** ⭐ | El mejor, paga |
-| **Bitwarden** ⭐ | Open source, gratis (recomendado si no pagás) |
-| **Proton Pass** | Open source, gratis |
-| **Apple Passwords** | Built-in iOS/Mac, gratis y sirve |
-| **NordPass** | Alternativa |
-| **Dashlane** | Clásico |
+| ⭐ [**1Password**](https://1password.com/) | El mejor, paga |
+| ⭐ [**Bitwarden**](https://bitwarden.com/) | Open source, gratis |
+| [**Proton Pass**](https://proton.me/pass) | Open source, gratis |
+| [**Apple Passwords**](https://support.apple.com/en-us/passwords) | Built-in iOS/Mac |
+| [**NordPass**](https://nordpass.com/) | Alternativa |
+| [**Dashlane**](https://www.dashlane.com/) | Clásico |
 
 > **NUNCA** uses LastPass (varios breaches). **NUNCA** guardes passwords en un .txt.
 
@@ -341,16 +340,16 @@
 
 | App | Notas |
 |-----|-------|
-| **Mullvad** ⭐ | Privacidad seria, paga flat €5/mes |
-| **ProtonVPN** | Tier gratis decente |
-| **NordVPN** | Marketing, pero funciona |
-| **Tailscale** ⭐ | VPN privada para devs (acceder a tu home server) |
-| **Cloudflare WARP** | Gratis, simple |
+| ⭐ [**Mullvad**](https://mullvad.net/) | Privacidad seria, paga flat €5/mes |
+| [**ProtonVPN**](https://protonvpn.com/) | Tier gratis decente |
+| [**NordVPN**](https://nordvpn.com/) | Marketing, pero funciona |
+| ⭐ [**Tailscale**](https://tailscale.com/) | VPN privada para devs |
+| [**Cloudflare WARP**](https://1.1.1.1/) | Gratis, simple |
 
 ### Otras privacidad
-- **Little Snitch** (Mac) — controla conexiones de apps
-- **AdGuard** / **uBlock Origin** — bloquear ads/trackers
-- **PiHole** — DNS-blocking a nivel red
+- [**Little Snitch**](https://obdev.at/products/littlesnitch/) (Mac) — controla conexiones de apps
+- [**AdGuard**](https://adguard.com/) / [**uBlock Origin**](https://github.com/gorhill/uBlock) — bloquear ads/trackers
+- [**PiHole**](https://pi-hole.net/) — DNS-blocking a nivel red
 
 ---
 
@@ -358,24 +357,24 @@
 
 | Browser | Notas |
 |---------|-------|
-| **Arc** | Diseño revolucionario, modo dev hermoso |
-| **Zen** | Open source Arc-like |
-| **Chrome** | DevTools estándar |
-| **Firefox Developer Edition** | DevTools potentes, privacidad |
-| **Brave** | Bloquea trackers + cripto |
-| **Safari** | Mac built-in, eficiencia energética |
-| **Edge** | Chromium con extras MS |
-| **Vivaldi** | Customizable |
+| [**Arc**](https://arc.net/) | Diseño revolucionario, modo dev hermoso |
+| [**Zen**](https://zen-browser.app/) | Open source Arc-like |
+| [**Chrome**](https://www.google.com/chrome/) | DevTools estándar |
+| [**Firefox Developer Edition**](https://www.mozilla.org/firefox/developer/) | DevTools potentes, privacidad |
+| [**Brave**](https://brave.com/) | Bloquea trackers + cripto |
+| [**Safari**](https://www.apple.com/safari/) | Mac built-in, eficiencia energética |
+| [**Edge**](https://www.microsoft.com/edge) | Chromium con extras MS |
+| [**Vivaldi**](https://vivaldi.com/) | Customizable |
 
 ### Extensiones útiles
-- **uBlock Origin** — bloqueador
-- **Bitwarden** — passwords
-- **JSON Viewer Pro** — formato JSON
-- **React DevTools**
-- **Wappalyzer** — qué tech usa cada web
-- **Stylus** — CSS custom en webs
-- **SponsorBlock** — saltea sponsors YouTube
-- **Vimium** — navegar con teclado
+- [**uBlock Origin**](https://github.com/gorhill/uBlock) — bloqueador
+- [**Bitwarden**](https://bitwarden.com/download/) — passwords
+- [**JSON Viewer Pro**](https://chromewebstore.google.com/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc) — formato JSON
+- [**React DevTools**](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+- [**Wappalyzer**](https://www.wappalyzer.com/) — qué tech usa cada web
+- [**Stylus**](https://add0n.com/stylus.html) — CSS custom en webs
+- [**SponsorBlock**](https://sponsor.ajay.app/) — saltea sponsors YouTube
+- [**Vimium**](https://vimium.github.io/) — navegar con teclado
 
 ---
 
@@ -383,57 +382,57 @@
 
 | App | Para qué |
 |-----|---------|
-| **Postman** | El estándar |
-| **Bruno** ⭐ | Open source, archivos locales |
-| **Insomnia** | Alternativa simpática |
-| **Thunder Client** | Dentro de VS Code |
-| **HTTPie** | CLI |
-| **mitmproxy** | Inspeccionar tráfico |
+| [**Postman**](https://www.postman.com/) | El estándar |
+| ⭐ [**Bruno**](https://www.usebruno.com/) | Open source, archivos locales |
+| [**Insomnia**](https://insomnia.rest/) | Alternativa simpática |
+| [**Thunder Client**](https://www.thunderclient.com/) | Dentro de VS Code |
+| [**HTTPie**](https://httpie.io/) | CLI |
+| [**mitmproxy**](https://mitmproxy.org/) | Inspeccionar tráfico |
 
 ### Database GUIs
-- **TablePlus** ⭐ — bonito (Mac/Win, paga)
-- **DBeaver** — universal, gratis
-- **Beekeeper Studio** — open source
-- **pgAdmin** — Postgres
-- **MongoDB Compass** — Mongo
-- **Redis Insight** — Redis
+- ⭐ [**TablePlus**](https://tableplus.com/) — bonito (Mac/Win, paga)
+- [**DBeaver**](https://dbeaver.io/) — universal, gratis
+- [**Beekeeper Studio**](https://www.beekeeperstudio.io/) — open source
+- [**pgAdmin**](https://www.pgadmin.org/) — Postgres
+- [**MongoDB Compass**](https://www.mongodb.com/products/tools/compass) — Mongo
+- [**Redis Insight**](https://redis.io/insight/) — Redis
 
 ### Git GUIs (si no te gusta CLI)
-- **GitHub Desktop** — simple, gratis
-- **GitKraken** — bonito, pago
-- **Sourcetree** — Atlassian, gratis
-- **Tower** — pro, pago
-- **Fork** — minimal, pago una vez
-- **Lazygit** — TUI, gratis
+- [**GitHub Desktop**](https://desktop.github.com/) — simple, gratis
+- [**GitKraken**](https://www.gitkraken.com/) — bonito, pago
+- [**Sourcetree**](https://www.sourcetreeapp.com/) — Atlassian, gratis
+- [**Tower**](https://www.git-tower.com/) — pro, pago
+- [**Fork**](https://fork.dev/) — minimal, pago una vez
+- [**Lazygit**](https://github.com/jesseduffield/lazygit) — TUI, gratis
 
 ---
 
 ## 📱 Móvil (apps en tu celular)
 
 ### Para aprender
-- **Mimo** ⭐ — gamificado
-- **Sololearn** — comunidad
-- **Encode** — lecciones cortas
-- **Brilliant** — matemáticas + lógica
+- ⭐ [**Mimo**](https://mimo.org/) — gamificado
+- [**Sololearn**](https://www.sololearn.com/) — comunidad
+- [**Encode**](https://www.encode.dev/) — lecciones cortas
+- [**Brilliant**](https://brilliant.org/) — matemáticas + lógica
 
 ### Productividad
-- **Notion** / **Obsidian** — notas
-- **Todoist** / **Things** — tareas
-- **Linear** — gestionar tickets
-- **GitHub** — issues, PRs
+- [**Notion**](https://www.notion.so/mobile) / [**Obsidian**](https://obsidian.md/mobile) — notas
+- [**Todoist**](https://todoist.com/) / [**Things**](https://culturedcode.com/things/) — tareas
+- [**Linear**](https://linear.app/) — gestionar tickets
+- [**GitHub**](https://github.com/mobile) — issues, PRs
 
 ### Comunicación
-- **Slack** / **Discord** / **Telegram** / **WhatsApp**
+- [**Slack**](https://slack.com/downloads) / [**Discord**](https://discord.com/download) / [**Telegram**](https://telegram.org/apps) / [**WhatsApp**](https://www.whatsapp.com/download)
 
 ### Lectura
-- **Pocket** / **Readwise Reader**
-- **Kindle**
+- [**Pocket**](https://getpocket.com/) / [**Readwise Reader**](https://readwise.io/read)
+- [**Kindle**](https://www.amazon.com/kindle-dbs/fd/kcp)
 
 ### Trabajo dev
-- **Working Copy** (iOS) — Git en iPhone
-- **Termius** — SSH client
-- **Blink Shell** — SSH/Mosh
-- **a-Shell** (iOS) — terminal en el celular
+- [**Working Copy**](https://workingcopy.app/) (iOS) — Git en iPhone
+- [**Termius**](https://termius.com/) — SSH client
+- [**Blink Shell**](https://blink.sh/) — SSH/Mosh
+- [**a-Shell**](https://github.com/holzschu/a-shell) (iOS) — terminal en el celular
 
 ---
 
@@ -441,16 +440,16 @@
 
 Si arrancás hoy, instalá estas y nada más:
 
-1. **Cursor** (editor)
-2. **Warp** (terminal)
-3. **Homebrew** (Mac) o **WSL2** (Windows)
-4. **Chrome** o **Arc** (browser)
-5. **GitHub Desktop** o `gh` CLI (Git)
-6. **Claude** (asistente)
-7. **Notion** o **Obsidian** (notas)
-8. **Spotify** (música)
-9. **Bitwarden** (passwords)
-10. **Slack** + **Discord** (comunicación)
+1. [**Cursor**](https://cursor.com/) (editor)
+2. [**Warp**](https://www.warp.dev/) (terminal)
+3. [**Homebrew**](https://brew.sh/) (Mac) o [**WSL2**](https://learn.microsoft.com/en-us/windows/wsl/) (Windows)
+4. [**Chrome**](https://www.google.com/chrome/) o [**Arc**](https://arc.net/) (browser)
+5. [**GitHub Desktop**](https://desktop.github.com/) o `gh` CLI (Git)
+6. [**Claude**](https://claude.ai/) (asistente)
+7. [**Notion**](https://www.notion.so/) o [**Obsidian**](https://obsidian.md/) (notas)
+8. [**Spotify**](https://www.spotify.com/) (música)
+9. [**Bitwarden**](https://bitwarden.com/) (passwords)
+10. [**Slack**](https://slack.com/) + [**Discord**](https://discord.com/) (comunicación)
 
 A medida que avances vas agregando lo demás según necesidad. **No instales todo de una.**
 
@@ -462,14 +461,14 @@ A medida que avances vas agregando lo demás según necesidad. **No instales tod
 
 | App | $/mes |
 |-----|-------|
-| GitHub Copilot Pro o Cursor Pro | 10-20 |
-| Claude Pro | 20 |
-| 1Password (Family) | 5 |
-| Notion / Obsidian Sync | 8 |
-| Backblaze backup | 9 |
-| Spotify | 11 |
-| Mullvad VPN | 5 |
-| Tailscale | 0 (tier gratis sirve) |
+| [GitHub Copilot Pro](https://github.com/features/copilot) o [Cursor Pro](https://cursor.com/) | 10-20 |
+| [Claude Pro](https://claude.ai/upgrade) | 20 |
+| [1Password Family](https://1password.com/) | 5 |
+| [Notion](https://www.notion.so/pricing) / [Obsidian Sync](https://obsidian.md/sync) | 8 |
+| [Backblaze](https://www.backblaze.com/) backup | 9 |
+| [Spotify](https://www.spotify.com/premium) | 11 |
+| [Mullvad VPN](https://mullvad.net/) | 5 |
+| [Tailscale](https://tailscale.com/) | 0 (tier gratis sirve) |
 | Dominio + email | 2-3 |
 | **Total** | **~$70/mes** |
 
@@ -481,14 +480,14 @@ A medida que avances vas agregando lo demás según necesidad. **No instales tod
 
 Todo gratis, sin compromisos:
 
-- **VS Code** (editor)
-- **Bitwarden** (passwords)
-- **Obsidian** (notas, sync por GitHub privado)
-- **ProtonVPN** free
-- **Cloudflare WARP** (VPN gratis)
-- **Backblaze B2** (backup, $6 por TB)
-- **DeepSeek** o **Mistral** (IA gratis)
-- **Spotify Free** o YouTube Music
-- **Google Drive 15 GB**
+- [**VS Code**](https://code.visualstudio.com/) (editor)
+- [**Bitwarden**](https://bitwarden.com/) (passwords)
+- [**Obsidian**](https://obsidian.md/) (notas, sync por GitHub privado)
+- [**ProtonVPN Free**](https://protonvpn.com/free-vpn)
+- [**Cloudflare WARP**](https://1.1.1.1/) (VPN gratis)
+- [**Backblaze B2**](https://www.backblaze.com/b2/cloud-storage.html) (backup, $6 por TB)
+- [**DeepSeek**](https://chat.deepseek.com/) o [**Mistral**](https://chat.mistral.ai/) (IA gratis)
+- [**Spotify Free**](https://www.spotify.com/) o [**YouTube Music**](https://music.youtube.com/)
+- [**Google Drive**](https://drive.google.com/) 15 GB
 
 Vivís igual de bien. La plata no hace al dev.
