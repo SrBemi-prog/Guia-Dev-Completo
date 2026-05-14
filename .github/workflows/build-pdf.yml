@@ -1,4 +1,4 @@
-name: Build PDF
+name: Build PDF & HTML
 
 on:
   push:
@@ -22,8 +22,11 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install md-to-pdf
-        run: npm install -g md-to-pdf
+      - name: Install dependencies
+        run: |
+          npm install -g md-to-pdf
+          sudo apt-get update
+          sudo apt-get install -y pandoc zip
 
       - name: Concatenate all markdown files in order
         run: |
@@ -60,7 +63,7 @@ jobs:
             done
 
             # Archivos especiales
-            for f in TECH-STACK-2026.md GLOSARIO.md PREGUNTAS-FRECUENTES.md PROGRESO.md LINKS.md; do
+            for f in TECH-STACK-2026.md STACK-DE-APPS.md GLOSARIO.md PREGUNTAS-FRECUENTES.md PROGRESO.md LINKS.md; do
               if [ -f "$f" ]; then
                 cat "$f"
                 echo ""
@@ -91,8 +94,9 @@ jobs:
             fi
           } > _build/guia-completa.md
 
-      - name: Create custom stylesheet
+      - name: Create stylesheets
         run: |
+          # CSS para PDF
           cat > _build/style.css << 'CSS'
           body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
@@ -106,38 +110,88 @@ jobs:
           h3 { font-size: 16pt; margin-top: 1.2em; }
           h4 { font-size: 13pt; }
           code {
-            background: #f6f8fa;
-            padding: 2px 4px;
-            border-radius: 3px;
-            font-family: "SF Mono", Monaco, Consolas, "Courier New", monospace;
-            font-size: 9.5pt;
-            color: #cf222e;
+            background: #f6f8fa; padding: 2px 4px; border-radius: 3px;
+            font-family: "SF Mono", Monaco, Consolas, monospace;
+            font-size: 9.5pt; color: #cf222e;
           }
-          pre {
-            background: #f6f8fa;
-            padding: 12px;
-            border-radius: 6px;
-            overflow-x: auto;
-            border: 1px solid #d0d7de;
-          }
-          pre code {
-            background: transparent;
-            padding: 0;
-            color: #1f2328;
-            font-size: 9pt;
-          }
+          pre { background: #f6f8fa; padding: 12px; border-radius: 6px; overflow-x: auto; border: 1px solid #d0d7de; }
+          pre code { background: transparent; padding: 0; color: #1f2328; font-size: 9pt; }
           table { border-collapse: collapse; width: 100%; margin: 10px 0; }
           th, td { border: 1px solid #d0d7de; padding: 6px 12px; text-align: left; font-size: 10pt; }
           th { background: #f6f8fa; font-weight: 600; }
-          blockquote {
-            border-left: 4px solid #d0d7de;
-            padding-left: 16px;
-            color: #57606a;
-            margin-left: 0;
-          }
+          blockquote { border-left: 4px solid #d0d7de; padding-left: 16px; color: #57606a; margin-left: 0; }
           a { color: #0969da; text-decoration: none; }
           .pagebreak { page-break-after: always; }
           img { max-width: 100%; }
+          CSS
+
+          # CSS para HTML (con dark mode auto + responsive)
+          cat > _build/html-style.css << 'CSS'
+          :root {
+            --bg: #ffffff;
+            --text: #1f2328;
+            --muted: #57606a;
+            --border: #d0d7de;
+            --code-bg: #f6f8fa;
+            --code-text: #cf222e;
+            --link: #0969da;
+            --header-bg: #f6f8fa;
+          }
+          @media (prefers-color-scheme: dark) {
+            :root {
+              --bg: #0d1117;
+              --text: #e6edf3;
+              --muted: #8b949e;
+              --border: #30363d;
+              --code-bg: #161b22;
+              --code-text: #ff7b72;
+              --link: #58a6ff;
+              --header-bg: #161b22;
+            }
+          }
+          * { box-sizing: border-box; }
+          body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--bg);
+            max-width: 920px;
+            margin: 40px auto;
+            padding: 0 24px 80px;
+          }
+          h1 { font-size: 2em; border-bottom: 2px solid var(--border); padding-bottom: 0.3em; color: var(--link); margin-top: 1em; }
+          h2 { font-size: 1.5em; border-bottom: 1px solid var(--border); padding-bottom: 0.3em; margin-top: 1.5em; }
+          h3 { font-size: 1.25em; margin-top: 1.3em; }
+          h4 { font-size: 1.1em; }
+          code {
+            background: var(--code-bg); padding: 2px 6px; border-radius: 4px;
+            font-family: "SF Mono", Monaco, Consolas, monospace;
+            font-size: 0.9em; color: var(--code-text);
+          }
+          pre {
+            background: var(--code-bg); padding: 16px; border-radius: 8px;
+            overflow-x: auto; border: 1px solid var(--border);
+          }
+          pre code { background: transparent; padding: 0; color: var(--text); font-size: 0.9em; }
+          table { border-collapse: collapse; width: 100%; margin: 16px 0; display: block; overflow-x: auto; }
+          th, td { border: 1px solid var(--border); padding: 8px 14px; text-align: left; }
+          th { background: var(--header-bg); font-weight: 600; }
+          blockquote {
+            border-left: 4px solid var(--border); padding: 0 16px;
+            color: var(--muted); margin-left: 0;
+          }
+          a { color: var(--link); text-decoration: none; }
+          a:hover { text-decoration: underline; }
+          img { max-width: 100%; height: auto; }
+          hr { border: none; border-top: 1px solid var(--border); margin: 24px 0; }
+          ul, ol { padding-left: 28px; }
+          .top-bar {
+            position: sticky; top: 0; background: var(--bg);
+            padding: 12px 0; border-bottom: 1px solid var(--border);
+            margin-bottom: 24px; z-index: 10;
+          }
+          .top-bar a { font-size: 0.9em; color: var(--muted); }
           CSS
 
       - name: Build PDF
@@ -147,23 +201,107 @@ jobs:
           mv guia-completa.pdf guia-dev-completo.pdf
           ls -lh guia-dev-completo.pdf
 
-      - name: Upload artifact
+      - name: Build HTML files (self-contained, one per markdown)
+        run: |
+          mkdir -p _build/html
+
+          # Función para convertir un .md a .html auto-suficiente
+          convert_md() {
+            local input="$1"
+            local output="$2"
+            local title="$3"
+            local backlink="$4"
+
+            local css=$(cat _build/html-style.css)
+
+            pandoc "$input" \
+              --from gfm \
+              --to html5 \
+              --standalone \
+              --metadata title="$title" \
+              --metadata lang=es \
+              -V backlink="$backlink" \
+              --include-in-header=<(echo "<style>$css</style>") \
+              --include-before-body=<(echo "<div class='top-bar'>📚 <a href='./index.html'>← Volver al índice</a> · <a href='https://github.com/SrBemi-prog/Guia-Dev-Completo' target='_blank'>Ver en GitHub</a></div>") \
+              -o "$output"
+          }
+
+          # Index principal
+          pandoc README.md \
+            --from gfm --to html5 --standalone \
+            --metadata title="Guía Dev Completo — Inicio" \
+            --metadata lang=es \
+            --include-in-header=<(echo "<style>$(cat _build/html-style.css)</style>") \
+            -o "_build/html/index.html"
+
+          # Convertir cada carpeta numerada
+          for dir in $(ls -d [0-9]*/ 2>/dev/null | sort); do
+            if [ -f "${dir}README.md" ]; then
+              name=$(echo "${dir}" | tr -d '/')
+              convert_md "${dir}README.md" "_build/html/${name}.html" "$name"
+            fi
+          done
+
+          # Archivos especiales en raíz
+          for f in TECH-STACK-2026.md STACK-DE-APPS.md GLOSARIO.md PREGUNTAS-FRECUENTES.md PROGRESO.md LINKS.md; do
+            if [ -f "$f" ]; then
+              name=$(basename "$f" .md)
+              convert_md "$f" "_build/html/${name}.html" "$name"
+            fi
+          done
+
+          # Cheatsheets
+          mkdir -p _build/html/cheatsheets
+          for f in cheatsheets/*.md; do
+            if [ -f "$f" ]; then
+              name=$(basename "$f" .md)
+              convert_md "$f" "_build/html/cheatsheets/${name}.html" "Cheatsheet: $name"
+            fi
+          done
+
+          # Templates
+          if [ -f templates/README.md ]; then
+            mkdir -p _build/html/templates
+            convert_md "templates/README.md" "_build/html/templates/index.html" "Templates"
+          fi
+
+          echo ""
+          echo "Archivos HTML generados:"
+          find _build/html -name "*.html" | sort
+
+      - name: Zip HTML files
+        run: |
+          cd _build
+          zip -r guia-dev-completo-html.zip html/
+          ls -lh guia-dev-completo-html.zip
+
+      - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: guia-dev-completo-pdf
-          path: _build/guia-dev-completo.pdf
+          name: guia-dev-completo
+          path: |
+            _build/guia-dev-completo.pdf
+            _build/guia-dev-completo-html.zip
           retention-days: 90
 
       - name: Update Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest-pdf
-          name: 'PDF — Guía completa'
+          name: 'Guía completa — PDF + HTML'
           body: |
-            📄 PDF actualizado automáticamente con el último contenido de la guía.
+            📦 **Descargas auto-generadas:**
+
+            - 📄 **PDF** (`guia-dev-completo.pdf`) — todo en un archivo, ideal para leer offline o imprimir
+            - 🌐 **HTML** (`guia-dev-completo-html.zip`) — un HTML por sección, autosuficientes (CSS embebido). Descomprimí el zip y doble-click en cualquier `.html` → abre en tu navegador con formato lindo. **Soporta modo oscuro automático.**
 
             **Última actualización:** ${{ github.event.head_commit.timestamp }}
             **Commit:** ${{ github.sha }}
-          files: _build/guia-dev-completo.pdf
+
+            ---
+            ¿Preferís verlo online? https://srbemi-prog.github.io/Guia-Dev-Completo/
+          files: |
+            _build/guia-dev-completo.pdf
+            _build/guia-dev-completo-html.zip
           prerelease: false
           make_latest: true
