@@ -40,7 +40,7 @@ df.groupby('mes')['monto'].sum().plot()
 ## 📺 Cursos recomendados
 
 ### Empezar
-- 📺 [Curso Python para Data Science - HolaMundo](https://www.youtube.com/results?search_query=Curso%20Python%20para%20Data%20Science%20-%20HolaMundo)
+- 📺 [Curso Python para Data Science - HolaMundo](https://www.youtube.com/@HolaMundoDev/search?query=Curso+Python+para+Data+Science)
 - 📺 [Pandas - codebasics (inglés)](https://www.youtube.com/playlist?list=PLeo1K3hjS3uuASpe-1LjfG5f14Bnozjwy)
 - 📖 [Kaggle Learn](https://www.kaggle.com/learn) ⭐ — mini cursos gratis muy buenos
 

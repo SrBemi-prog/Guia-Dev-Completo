@@ -20,8 +20,8 @@
 ## 📱 React Native + Expo (el más popular)
 
 ### Recursos
-- 📺 [Curso React Native - midudev](https://www.youtube.com/results?search_query=Curso%20React%20Native%20-%20midudev)
-- 📺 [Expo - React Native fácil](https://www.youtube.com/results?search_query=Expo%20-%20React%20Native%20f%C3%A1cil)
+- 📺 [Curso React Native - midudev](https://www.youtube.com/@midudev/search?query=Curso+React+Native)
+- 📺 [Tutoriales de Expo en MoureDev](https://www.youtube.com/@mouredev/search?query=expo)
 - 📖 [docs.expo.dev](https://docs.expo.dev/)
 - 📖 [reactnative.dev](https://reactnative.dev/)
 
@@ -48,7 +48,7 @@ Te da un QR → lo escaneás con Expo Go en tu celu → corre tu app sin compila
 Lenguaje: **Dart**. Hot reload increíble.
 
 ### Recursos
-- 📺 [Flutter desde cero - MoureDev](https://www.youtube.com/results?search_query=Flutter%20desde%20cero%20-%20MoureDev)
+- 📺 [Flutter desde cero - MoureDev](https://www.youtube.com/@mouredev/search?query=Flutter+desde+cero)
 - 📖 [flutter.dev/learn](https://flutter.dev/learn)
 - 📖 [dart.dev](https://dart.dev/)
 

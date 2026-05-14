@@ -65,7 +65,7 @@
 - 📺 [Prompt Engineering - DotCSV](https://www.youtube.com/@DotCSV)
 - 📖 [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/claude/docs/prompt-engineering)
 - 📖 [OpenAI Cookbook](https://cookbook.openai.com/)
-- 📺 [Cursor para devs - midudev](https://www.youtube.com/results?search_query=Cursor%20para%20devs%20-%20midudev)
+- 📺 [Cursor para devs - midudev](https://www.youtube.com/@midudev/search?query=Cursor+para+devs)
 
 ---
 
