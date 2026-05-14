@@ -46,6 +46,13 @@
 - 🔗 [**LINKS.md**](./LINKS.md) — Todos los links en un solo lugar
 - 🛠️ [**TECH-STACK-2026.md**](./TECH-STACK-2026.md) — Stack moderno opinionado
 - 📖 [**GLOSARIO.md**](./GLOSARIO.md) — Diccionario dev de A a Z
+- ❓ [**PREGUNTAS-FRECUENTES.md**](./PREGUNTAS-FRECUENTES.md) — FAQ opinionado para principiantes
+- 📊 [**PROGRESO.md**](./PROGRESO.md) — Checklist personal de aprendizaje (forkeá y completalo)
+- 📋 [**Cheatsheets**](./cheatsheets/) — Hojas de referencia rápida (Git, JS, Python, SQL, Regex, etc.)
+- 🚀 [**Templates / Starters**](./templates/) — Comandos para arrancar proyectos en 30 segundos
+
+### 📥 Descargas
+- 📄 [**Descargar guía en PDF**](https://github.com/SrBemi-prog/Guia-Dev-Completo/releases/latest) — Para leer offline
 
 ---
 

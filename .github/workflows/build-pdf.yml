@@ -1,0 +1,120 @@
+name: Build PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.md'
+      - '.github/workflows/build-pdf.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pandoc + LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-fonts-extra texlive-lang-spanish lmodern
+
+      - name: Concatenate all markdown files in order
+        run: |
+          mkdir -p _build
+          {
+            echo "% Guía Dev Completo"
+            echo "% SrBemi-prog"
+            echo "% $(date +'%Y-%m-%d')"
+            echo ""
+            cat README.md
+            echo ""
+            echo "\\newpage"
+            echo ""
+
+            # Ordenar carpetas numeradas
+            for dir in $(ls -d [0-9]*/ 2>/dev/null | sort); do
+              if [ -f "${dir}README.md" ]; then
+                echo "\\newpage"
+                echo ""
+                cat "${dir}README.md"
+                echo ""
+              fi
+            done
+
+            # Archivos especiales
+            for f in TECH-STACK-2026.md GLOSARIO.md PREGUNTAS-FRECUENTES.md PROGRESO.md LINKS.md; do
+              if [ -f "$f" ]; then
+                echo "\\newpage"
+                echo ""
+                cat "$f"
+                echo ""
+              fi
+            done
+
+            # Cheatsheets
+            if [ -d cheatsheets ]; then
+              echo "\\newpage"
+              echo "# 📋 Cheatsheets"
+              echo ""
+              for f in cheatsheets/*.md; do
+                if [ "$(basename $f)" != "README.md" ]; then
+                  echo "\\newpage"
+                  echo ""
+                  cat "$f"
+                  echo ""
+                fi
+              done
+            fi
+
+            # Templates
+            if [ -f templates/README.md ]; then
+              echo "\\newpage"
+              echo ""
+              cat templates/README.md
+            fi
+          } > _build/guia-completa.md
+
+      - name: Build PDF with pandoc
+        run: |
+          cd _build
+          pandoc guia-completa.md \
+            -o guia-dev-completo.pdf \
+            --pdf-engine=xelatex \
+            --toc \
+            --toc-depth=2 \
+            -V geometry:margin=2cm \
+            -V mainfont="DejaVu Sans" \
+            -V monofont="DejaVu Sans Mono" \
+            -V documentclass=report \
+            -V colorlinks=true \
+            -V linkcolor=blue \
+            -V urlcolor=blue \
+            -V toccolor=black \
+            --highlight-style=tango \
+            || echo "PDF build had warnings (continuing)"
+          ls -lh guia-dev-completo.pdf
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: guia-dev-completo-pdf
+          path: _build/guia-dev-completo.pdf
+          retention-days: 90
+
+      - name: Update Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest-pdf
+          name: 'PDF — Guía completa'
+          body: |
+            📄 PDF actualizado automáticamente con el último contenido de la guía.
+
+            **Última actualización:** ${{ github.event.head_commit.timestamp }}
+            **Commit:** ${{ github.sha }}
+          files: _build/guia-dev-completo.pdf
+          prerelease: false
+          make_latest: true
